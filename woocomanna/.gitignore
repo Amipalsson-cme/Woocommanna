@@ -1,0 +1,7 @@
+!wp-content/kota-theme
+
+!wp-content/themes/woocommerce-plugin
+
+*.log
+*.Db_file
+
