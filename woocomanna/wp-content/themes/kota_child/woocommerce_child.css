@@ -1,0 +1,126 @@
+/*
+Theme Name: Kota
+
+WooCommerce styles override
+*/
+/**
+ * Shop tables
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital@1&display=swap');
+
+ body {
+     font-family: 'Raleway' , sans-serif;
+ }
+
+ .site-title {
+     background-color:none;
+     color:white;
+ }
+ .site-title a {
+     color:white;
+     font-family: 'Italianno', cursive;
+     font-size: 2rem;
+ }
+
+ .site-header {
+     background-color:black;
+ }
+
+ #primary-menu.menu.nav-menu{
+     background-color:#a4698d;
+ }
+
+ #primary-menu.menu.nav-menu li {
+     color:white;
+     font-family: 'Raleway',sans-serif;
+     font-weight: bold;
+ }
+
+.site-navbar{
+    color:white;
+}
+
+.a cart-contents {
+    color:white;
+}
+
+.site-footer {
+    background:black;
+}
+
+a.button.product_type_variable.add_to_cart_button {
+    background-color:black;
+    color:white;
+}
+
+a.button.product_type_simple{
+    background-color:black;
+    color:white;
+}
+
+button.menu-toggle {
+    color:white;
+}
+
+p.has-text-align-center.has-large-font-size {
+  position: relative;
+  font-family: 'Great Vibes' ,cursive;
+  font-size: 4em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #a4698d, #ffff);
+  background-repeat: no-repeat;
+  background-size: 100%;
+ -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+#header-widget-area.chw-widget-area.widget-area  a {
+    color:white;
+    font-size:25px;
+    left:30%;
+    font-style: underline;
+    background: linear-gradient(90deg, #a4698d, #ffff);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 6s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+
+}
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+span.has-inline-color.has-pale-pink-color {
+    color:white;
+    font-size:30px;
+    position: absolute;
+    top: 70%;
+   left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+a.wp-block-button__link.has-white-color.has-text-color {
+    position:absolute;
+    top:80%;
+    left:45%;
+}
+
+blockquote.has-text-color{
+    font-family: 'Great Vibes',cursive;
+    font-size:65px;
+    font-style: underline;
+    background: linear-gradient(90deg, #a4698d,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
